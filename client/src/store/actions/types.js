@@ -1,0 +1,11 @@
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const SIGNUP_FAILURE = 'SIGNUP_FAILURE';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+export const VERIFY_SUCCESS = 'VERIFY_SUCCESS';
+export const VERIFY_FAILURE = 'VERIFY_FAILURE';
+export const LOG_OUT = 'LOG_OUT';
+export const ADD_TODO = 'ADD_TODO';
+export const GET_TODOS = 'GET_TODOS';
+export const DELETE_TODO = 'DELETE_TODO';
+export const EDIT_TODO = 'EDIT_TODO';

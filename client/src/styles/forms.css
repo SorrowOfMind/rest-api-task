@@ -1,0 +1,70 @@
+.form-title {
+    font-size: 4rem;
+}
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 7rem;
+    font-size: 1.8rem;
+}
+
+.form input {
+    font-size: inherit;
+    padding: .8rem;
+}
+
+.form-label {
+    color: #e5bd00;
+}
+
+.form-btn {
+    font-size: inherit;
+    padding: .8rem;
+    background-color: #e5bd00;
+    border: none;
+}
+
+.form-link {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    float: right;
+    padding: 2rem 0;
+    color: #e5bd00;
+    transition: color .2s;
+}
+
+.form-link:hover {
+    color: #e58900;
+}
+
+.form-btn:hover {
+    background-color: #e58900;;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.form-error {
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0;
+    color: rgb(252, 110, 110);
+}
+
+.form-error-empty {
+    top: -3rem;
+}
+
+.form-login, .form-register {
+    position: relative;
+}
+
+.error-backend {
+    color: rgb(252, 110, 110);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+}
