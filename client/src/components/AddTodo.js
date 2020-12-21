@@ -14,6 +14,13 @@ const AddTodo = () => {
         }
     }
 
+    const handleAddTodoOnEnter = e => {
+        if (todo && e.key === 'Enter') {
+            dispatch(addTodo(todo));
+            connectTodo.clearInput()
+        }
+    }
+
     return (
         <div className="input-group my-5">
             <input 
@@ -23,6 +30,7 @@ const AddTodo = () => {
                 aria-label="todo" 
                 aria-describedby="button-add-todo"
                 {...connectTodo.setInput}
+                onKeyDown={handleAddTodoOnEnter}
             />
             <button 
                 className="btn todo-btn bg-dark" 
